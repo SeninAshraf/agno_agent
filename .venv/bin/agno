@@ -1,0 +1,6 @@
+#!/Users/seninashraf/Downloads/agno-gemini-starter/.venv/bin/python
+import sys
+from agnoctl.main import app
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(app())
